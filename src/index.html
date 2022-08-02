@@ -12,8 +12,10 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
+    >
       <fieldset class="fieldset">
         <legend>
           Personal information
@@ -75,20 +77,19 @@
         <label class="label block">
           E-mail:
           <input
-          type="email"
-          name="email" 
-          placeholder="email@example.com"
-          required
+            type="email"
+            name="email" 
+            placeholder="email@example.com"
+            required
           >
         </label>
 
         <label class="block">
           Password:
           <input
-          type="password"
-          name="password" 
-          pattern="w+"
-          required
+            type="password"
+            name="password"
+            required
           >
         </label>
       </fieldset>
@@ -102,17 +103,18 @@
           Do you love cats?
           <label>
             <input
-            type="radio"
-            name="cats"
-            value="love"
+              type="radio"
+              name="cats"
+              value="love"
             >
             Yes
           </label>
+          
           <label>
             <input
-            type="radio"
-            name="cats"
-            value="don't love"
+              type="radio"
+              name="cats"
+              value="don't love"
             >
             No
           </label>
@@ -121,24 +123,24 @@
         <label class="label block">
           What is your favorite color?
           <input 
-          type="color" 
-          name="favoriteColor"
+            type="color" 
+            name="favoriteColor"
           >
         </label>
 
         <label class="label block">
           What time do you go to bed?
           <input 
-          type="time" 
-          name="sleepTime"
+            type="time" 
+            name="sleepTime"
           >
         </label>
 
         <label class="label block">
           What are your favorite brand of cars?
           <select  
-          name="favBrandOfCar"
-          multiple
+            name="favBrandOfCar"
+            multiple
           >
             <option value="BMW">
               BMW
@@ -155,11 +157,11 @@
         <label class="label">
           How do you rate our work?
           <input
-          type="range"
-          name="range"
-          min="0"
-          max="10"
-          value="0"
+            type="range"
+            name="range"
+            min="0"
+            max="10"
+            value="0"
           >
         </label>
       </fieldset>
@@ -172,10 +174,10 @@
         <label class="label block">
           Comments:
           <textarea 
-          name="comments"
-          minlength="10"
-          maxlength="50"
-          autocomplete="off"
+            name="comments"
+            minlength="10"
+            maxlength="50"
+            autocomplete="off"
           ></textarea>
         </label>
 
